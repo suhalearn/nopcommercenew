@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopcommerce" duration-ms="41413" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:40:06Z">
+    <groups>
+    </groups>
+    <test name="TC_LoginTest_001" duration-ms="21889" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:47Z">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@6aaceffd]" name="setup" is-config="true" duration-ms="7887" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@6aaceffd]" name="loginTest" duration-ms="12415" started-at="2020-06-29T23:39:33Z" finished-at="2020-06-29T23:39:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.nopcommerce.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@6aaceffd]" name="tearDown" is-config="true" duration-ms="1383" started-at="2020-06-29T23:39:46Z" finished-at="2020-06-29T23:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+    </test> <!-- TC_LoginTest_001 -->
+    <test name="TC_SearchCustomerByName_005" duration-ms="27995" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:53Z">
+      <class name="com.nopcommerce.testCases.TC_SearchCustomerByName_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByName_005@394a2528]" name="setup" is-config="true" duration-ms="7985" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchCustomerbyName()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByName_005@394a2528]" name="searchCustomerbyName" duration-ms="19037" started-at="2020-06-29T23:39:33Z" finished-at="2020-06-29T23:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerbyName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByName_005@394a2528]" name="tearDown" is-config="true" duration-ms="896" started-at="2020-06-29T23:39:52Z" finished-at="2020-06-29T23:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerByName_005 -->
+    </test> <!-- TC_SearchCustomerByName_005 -->
+    <test name="TC_SearchCustomerByEmail_004" duration-ms="28167" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:53Z">
+      <class name="com.nopcommerce.testCases.TC_SearchCustomerByEmail_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@21b2e768]" name="setup" is-config="true" duration-ms="7881" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchCustomerbyEmail()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@21b2e768]" name="searchCustomerbyEmail" duration-ms="19245" started-at="2020-06-29T23:39:33Z" finished-at="2020-06-29T23:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerbyEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerByEmail_004@21b2e768]" name="tearDown" is-config="true" duration-ms="860" started-at="2020-06-29T23:39:52Z" finished-at="2020-06-29T23:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerByEmail_004 -->
+    </test> <!-- TC_SearchCustomerByEmail_004 -->
+    <test name="TC_AddCustomer_003" duration-ms="41413" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:40:06Z">
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@2f465398]" name="setup" is-config="true" duration-ms="7898" started-at="2020-06-29T23:39:25Z" finished-at="2020-06-29T23:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@2f465398]" name="addNewCustomer" duration-ms="32532" started-at="2020-06-29T23:39:33Z" finished-at="2020-06-29T23:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_003@2f465398]" name="tearDown" is-config="true" duration-ms="818" started-at="2020-06-29T23:40:06Z" finished-at="2020-06-29T23:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_AddCustomerTest_003 -->
+    </test> <!-- TC_AddCustomer_003 -->
+  </suite> <!-- nopcommerce -->
+</testng-results>
